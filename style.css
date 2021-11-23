@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+:root {
+    --black: black;
+    --white: white;
+}
+
+body{
+    background-color: var(--black);
+}
+
+button{
+    padding: 10px;
+
+}
