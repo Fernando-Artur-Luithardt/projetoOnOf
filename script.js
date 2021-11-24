@@ -1,7 +1,16 @@
 function onOf() {
-    let stilo = document.body.style.color
+    const button = document.getElementById('button')
+    let stilo = button.style.color
     console.log(stilo)
-    document.body.style.backgroundColor = "white"
-    document.getElementById('button').style.backgroundColor = "black"
-    document.getElementById('button').style.color = "white"
+    if (stilo == 'black') {
+        document.body.style.backgroundColor = "white"
+        button.style.backgroundColor = "black"
+        button.style.color = "white"
+        button.innerText = "OFF"
+    } else {
+        document.body.style.backgroundColor = "black"
+        button.style.backgroundColor = "white"
+        button.style.color = "black"
+        button.innerText = "ON"
+    }
 }
