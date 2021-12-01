@@ -11,20 +11,11 @@ body {
     background-color: black;
 }
 
-body.on {
-    background-color: white;
+body.off {
+    background-color: black;
 }
 
-body.on button {
-    color: red;
-}
-
-/* :root {
-    --black: black;
-    --white: white;
-} */
-
-button{
+.button{
     background-color: white;
     padding: 10px;
 }

@@ -1,6 +1,6 @@
 function onOf() {
     //aponta para o botão e o corpo (body)
-    const button = document.getElementById('button')
+    const button = document.querySelector("button.button")
     const body = document.body
 
     //pega a cor atual do botão
